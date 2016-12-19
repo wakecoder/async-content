@@ -1,17 +1,3 @@
-# async-content
-
-> A vue.js component that facilitates pulling from any asynchronous source (e.g. the WP-REST API) and displays default content until loaded
-
-## How-to use:
-
-Install:
-``` bash
-# install dependencies
-npm install --save async-content
-```
-
-Use in your Vue component:
-``` javascript
 <template>
   <div id="app">
     <async-content :map-function="mapFunction" url="http://www.codeofmanycolors.com/blog/wp-json/wp/v2/posts?per_page=1">
@@ -53,7 +39,3 @@ export default {
   }
   
 </style>
-```
-
-Example:
-Coming soon. In the meantime, clone this repo, install, buid and 'npm run dev'
