@@ -57,7 +57,6 @@ export default {
             fetch(this.url)
             .then(res => res.json())
             .then(json => {
-                console.log('calling map function')
                 this.mapFunction(json)
                 this.loaded = true
             })
