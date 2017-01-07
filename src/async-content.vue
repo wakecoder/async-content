@@ -53,7 +53,6 @@ export default {
     name: 'async-content',
     data: function () {
         if (this.url) {
-            console.log ('here')
             fetch(this.url)
             .then(res => res.json())
             .then(json => {
